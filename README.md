@@ -2,7 +2,8 @@
 
 ## Pull code from `book-review-app`
 
-If you want to bring the existing `book-review-app` codebase into this repository, run:
+If you want to bring the existing `book-review-app` codebase into this repository, run the commands below.
+Replace `<owner>` with the GitHub username or organization that owns `book-review-app`:
 
 ```bash
 git remote add book-review-app https://github.com/<owner>/book-review-app.git
