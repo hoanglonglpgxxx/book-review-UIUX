@@ -11,6 +11,6 @@ git fetch book-review-app
 git merge --allow-unrelated-histories book-review-app/main
 ```
 
-The merge command can produce conflicts; review the changes and resolve conflicts before committing.
+The merge command may produce conflicts. If conflicts occur, resolve them, stage the resolved files with `git add`, and complete the merge with `git commit`.
 
 If your source default branch is `master`, replace `book-review-app/main` with `book-review-app/master`.
